@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header _container">
+  <div class="header_title">Давай играть</div>
+</header>
+
+      <main class="page">
+        <header class="game _container">
+  <div class="right">
+    <div class="voice">
+      <div class="img_game"></div>
+    </div>
+    <div class="voices">
+      <div>
+        <img value="1" class="voices_img stoneL" src="img/stone.png" alt="" />
+      </div>
+      <div>
+        <img
+          value="2"
+          class="voices_img scissorsL"
+          src="img/scissors.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img value="3" class="voices_img paperL" src="img/paper.png" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <button class="btn_start_game">Играть</button>
+
+  <div class="left">
+    <div class="rival">
+      <div class="img_games"></div>
+      <div class="rival_voices">
+        <div>
+          <img
+            value="4"
+            class="rival_voices_img stoneR"
+            src="img/stone.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            value="5"
+            class="rival_voices_img scissorsR"
+            src="img/scissors.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            value="6"
+            class="rival_voices_img paperR"
+            src="img/paper.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="result">
+  <div class="result_title">Раунд</div>
+  <div class="result_raund">
+    <div class="result_arr"></div>
+    <div class="result_arr2"></div>
+  </div>
+</div>
+ <div class="game2 game2_demo _container">
+  <h1>Камень-ножницы-бумага</h1>
+  <div class="counter-block">
+    <div class="count count-user">0</div>
+    <span>:</span>
+    <div class="count count-comp">0</div>
+  </div>
+  <div class="figure-container">
+    <div class="user-field">
+      <button class="field rock" data-field="r"></button>
+      <button class="field scissors" data-field="s"></button>
+      <button class="field paper" data-field="p"></button>
+    </div>
+    <div class="comp-field">
+      <button class="field rock" data-field="r"></button>
+      <button class="field scissors" data-field="s"></button>
+      <button class="field paper" data-field="p"></button>
+    </div>
+  </div>
+  <h3 class="results">Сделайте выбор</h3>
+</div>
+<div class="buttons">
+  <button class="play">Играть заново</button>
+</div>
+
+      </main>
+    </div>
+    <!-- <script src="../js/app.min.js"></script> -->
+<script src="js/app.js"></script>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<!-- <script src="anime.min.js"></script> -->
+
+  </body>
+</html>
